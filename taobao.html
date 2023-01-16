@@ -1,0 +1,950 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>淘宝网-淘！我喜欢</title>
+    <link rel="shortcut icon" href="./image/图标.png">
+    <style>
+        @import url("./css/index.css");
+    </style>
+
+<script src="./js/lunbotu.js"></script>
+<script src="./js/donghua.js"></script>
+<script src="./js/returntop.js"></script>
+
+
+
+
+</head>
+
+<body>
+
+    
+    <div id="header"><!--头部功能栏-->
+        <div class="container clearfix">
+            <ul class="header-left">
+                <li class="region-choice" id="li1">
+                <div class="diqu">
+                <a href="#" class="china">中国大陆 &#11206;</a>
+        
+            </div>
+                <div class="angle-down" aria-hidden="true">
+                    <ul id="ul1">
+                        <li>全球</li>
+                        <li>中国大陆</li>
+                        <li>中国香港</li>
+                        <li>中国台湾</li>
+                        <li>中国澳门</li>
+                        <li>韩国</li>
+                        <li>马来西亚</li>
+                        <li>新加坡</li>
+                        <li>朝鲜</li>
+                        <li>澳大利亚</li>
+                        <li>印度</li>
+                        <li>新西兰</li>
+                    </ul>
+                </div>
+                </li>
+            
+                <li>
+                    <a href="#" class="orange">亲，请登录</a>
+                </li>
+                <li>
+                <a href="#">免费注册</a>
+            </li>
+            <li>
+                <a href="#">手机逛淘宝</a>
+            </li>
+
+            </ul>
+            <ul class="header-right">
+                <li class="region-choice" id="li2">
+                    <div class="tb">
+                <a href="#" class="mytaobao">我的淘宝</a>
+            </div>
+                <ul id="ul2">
+                    <li>已买到的宝贝</li>
+                    <li>我的足迹</li>
+                </ul>
+            </li>
+            <li class="null">
+                <a href="#"><i class="shopping-car orange" aria-hidden="true"></i>购物车<span class="shopnum">0</span>
+                <i class="angle-down orange" aria-hidden="true"></i>
+                </a>
+            </li>
+            <li class="region-choice" id="li3">
+                <a href="#">&hearts; 收藏夹</a>
+                <ul id="ul3">
+                    <li>收藏的商品</li>
+                    <li>收藏的店铺</li>
+
+                </ul>
+            </li>
+            <li class="null">
+                <a href="#">商品分类</a>
+            </li>
+            <li class="null"> 
+                <a href="#">免费开店</a>
+                <span class="split">|</span>
+            </li>
+               
+            <li class="region-choice" id="li4">
+                <a href="#">千牛卖家中心 &#11206;</a>
+        
+                <ul id="ul4">
+                    <li>开店入驻</li>
+                    <li>已卖出的宝贝</li>
+                    <li>发售中的宝贝</li>
+                    <li>卖家服务市场</li>
+                    <li>卖家培训中心</li>
+                    <li>体检中心</li>
+                    <li>电商学习中心</li>
+
+
+                </ul>
+                </li>
+                <li class="region-choice" id="li5">
+                <a href="#">联系客服 &#11206;</a>
+                <ul id="ul5">
+                    <li>消费者客服</li>
+                    <li>卖家客服</li>
+                    <li>意见反馈</li>
+                    <li>网页版旺旺</li>
+
+                </ul>
+            </li>
+                
+
+            </ul>
+
+        </div>
+    </div>
+    
+<script src="./js/xiala.js"></script><!--下拉列表js文件引用-->
+
+
+    
+
+
+    <div id="main"><!--主体页面-->
+
+
+        
+        <div class="container" id="xiugai">
+            <div class="searchbar">
+                
+            
+                <div class="logo">
+                    <img src="./image/淘宝网.png" alt="淘宝网">
+                </div>
+        
+                
+
+                <form action="https://s.taobao.com/search" method="get">
+                    <div class="searchbar-main">
+                        <div class="search-category">
+                            宝贝<i class="du-down" aria-hidden="true"></i>
+                        </div>
+                        <span class="search-icon"><i class="du-search" aria-hidden="true"></i></span>
+                        <div class="input">
+                            <input type="text" placeholder="双肩包">
+
+                        </div>
+                        <button>搜索</button>
+                        </div>
+
+                        <div class="hotwords">
+                            <a href="#">新款连衣裙</a>
+                            <a href="#">四件套</a>
+                            <a href="#">潮流T恤</a>
+                            <a href="#">时尚女鞋</a>
+                            <a href="#">短裤</a>
+                            <a href="#">半身裙</a>
+                            <a href="#">男士外套</a>
+                            <a href="#">墙纸</a>
+                            <a href="#">行程记录仪</a>
+                            <a href="#">新款男鞋</a>
+                    </div>
+                </form>
+                <div class="qrcode">
+                    <div class="qrcode-inner">
+                        <span>
+                            下载淘宝
+                        </span>
+                        <img src="./image/下载淘宝.png" alt="下载淘宝二维码">
+                    </div>
+                </div>              
+            </div>
+        </div>
+
+
+
+        <!-- 搜索框下方左侧的导航栏内容 -->
+        <div class="details-clearfix"  id="showreturn">
+            <div class="left-box">
+                <h2>分类</h2>
+             <ul class="nav1">
+                <li>
+                    <a href="">女装</a> /
+                    <a href="">内衣</a> /
+                    <a href="">奢品</a>
+                    <i class="hang1" aria-hidden="true"></i>
+                </li>
+            
+                <li><a href="">女鞋</a> /
+                    <a href="">男鞋</a> /
+                    <a href="">箱包</a>
+                    <i class="hang1" aria-hidden="true"></i>
+                </li>
+             
+                <li><a href="">男装</a> /
+                    <a href="">运动</a> /
+                    <a href="">百货</a>
+                    <i class="hang1" aria-hidden="true"></i>
+                </li>
+             
+                <li><a href="">手机</a> /
+                    <a href="">数码</a> /
+                    <a href="">企业礼品</a>
+                    <i class="hang1" aria-hidden="true"></i>
+                </li>
+             
+                <li><a href="">家装</a> /
+                    <a href="">电器</a> /
+                    <a href="">车品</a>
+                    <i class="hang1" aria-hidden="true"></i>
+                </li>
+             
+                <li><a href="">食品</a> /
+                    <a href="">生鲜</a> /
+                    <a href="">母婴</a>
+                    <i class="hang1" aria-hidden="true"></i>
+                </li>
+             
+                <li><a href="">医药</a> /
+                    <a href="">保健</a> /
+                    <a href="">进口</a>
+                    <i class="hang1" aria-hidden="true"></i>
+                </li>
+             </ul>
+            </div>
+
+
+
+            <!-- 搜索框右部的轮播图上方的导航功能栏 -->
+            <div class="right-box">
+                <div class="maiddle-title">
+                    <div class="maiddle-title-txt">
+
+                <ul class="nav2">
+                    <li>
+                        <a href="">天猫</a>
+                    </li>
+                    <li class="sep">|</li>
+                    <li>
+                        <a href="">聚划算</a>
+                    </li>
+                    <li class="sep">|</li>
+                    <li>
+                        <a href="">天猫超市</a>
+                    </li>
+                    </ul>
+                    <ul class="nav2">
+                    <li class="sep">|</li>
+                    <li>
+                        <a href="">司法拍卖</a>
+                    </li>
+                    <li class="sep">|</li>
+                    <li>
+                        <a href="">飞猪旅行</a>
+                    </li>
+                    <li class="sep">|</li>
+                    <li>
+                        <a href="">天天特卖</a>
+                    </li>
+                    </ul>
+                    <ul class="nav2">
+                    <li class="sep">|</li>
+                    <li>
+                        <a href="">极有家</a>
+                    </li>
+                    <li class="sep">|</li>
+                    <li>
+                        <a href="">淘宝直播</a>
+                    </li>
+                </ul>
+                </div>
+                </div>
+
+
+
+                <!-- 搜索框下方右部轮播图 -->
+                <div class="main-inner" id="lunbo">
+
+                    <div class="banner" id="banner">
+                        <div class="left">
+                            < </div>
+                                <div class="right">></div>
+                        
+                        <ul id="unit">
+                            <li><a href=""><img src="./image/lunbo1.jpg" ></a></li>
+                            <li><a href=""><img border="0" src="./image/lunbo2.jpg"  ></a></li>
+                            <li><a href=""><img border="0" src="./image/lunbo3.jpg"  ></a></li>
+                            <li><a href=""><img border="0" src="./image/lunbo4.jpg"  ></a></li>
+                            <li><a href=""><img src="./image/lunbo5.jpg" ></a></li>
+                        </ul>
+                        <ol>
+
+                        </ol>                                                                              
+                    </div>
+                    
+                </div>
+
+        </div>
+
+
+
+        <!-- 搜索框右部的登录界面 -->
+        <div class="user">
+            <div class="Hi">
+            <div class="member-lg">
+                <a href="" class="tou"><img src="./image/sign in logo.jpg" class="member-avater"></a>
+
+            </div>
+            <a><span class="hinihao">Hi!<strong>你好</strong></span></a>
+        </div>
+
+
+        <div class="member-3">
+            <div class="member-si">
+                <a href="" class="btn-login">登录</a>
+                <a href="" class="btn-register">开店</a>
+                <a href="" class="btn-open">注册</a>
+            </div>
+
+        </div>
+
+        </div>
+        </div>
+       
+
+    </div>
+    <div>
+    <div class="layer">
+        <div class="layer-header">
+            <div class="layer-2">
+                <div class="layer-3">
+            <h3 class="layer-header-h">
+                <span class="layer-header-title">猜你喜欢</span>
+                <img src="./image/gexing.png" class="layer-header-png">
+    
+            </h3>
+            <div class="recommend-clearfix">
+                <div class="recommend-a">
+                    <a href="" class="item-link">
+                        <div class="img-show">
+                            <img src="./image/coffer.jpg   ">
+
+                        </div>
+                        <div class="title-show">
+                            <div class="title-demo">
+                                日本制Studio M'彩色陶瓷八角杯奶茶咖啡雪糕马克杯
+
+                            </div>
+                            <div class="tag-list" style="color: #FF5000;border-color: #FAB596;
+                            background: #FFFFFF;">送运费险</div>
+                        </div>
+                        <div class="price">
+                            <span class="price-value">
+                                <em>¥</em>
+                                688
+
+                            </span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+
+
+             <div class="recommend-clearfix">
+                <div class="recommend-a">
+                    <a href="" class="item-link">
+                        <div class="img-show">
+                            <img src="./image/coffer.jpg   ">
+
+                        </div>
+                        <div class="title-show">
+                            <div class="title-demo">
+                                日本制Studio M'彩色陶瓷八角杯奶茶咖啡雪糕马克杯
+
+                            </div>
+                            <div class="tag-list" style="color: #FF5000;border-color: #FAB596;
+                            background: #FFFFFF;">送运费险</div>
+                        </div>
+                        <div class="price">
+                            <span class="price-value">
+                                <em>¥</em>
+                                688
+
+                            </span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="recommend-clearfix">
+                <div class="recommend-a">
+                    <a href="" class="item-link">
+                        <div class="img-show">
+                            <img src="./image/coffer.jpg   ">
+
+                        </div>
+                        <div class="title-show">
+                            <div class="title-demo">
+                                日本制Studio M'彩色陶瓷八角杯奶茶咖啡雪糕马克杯
+
+                            </div>
+                            <div class="tag-list" style="color: #FF5000;border-color: #FAB596;
+                            background: #FFFFFF;">送运费险</div>
+                        </div>
+                        <div class="price">
+                            <span class="price-value">
+                                <em>¥</em>
+                                688
+
+                            </span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="recommend-clearfix">
+                <div class="recommend-a">
+                    <a href="" class="item-link">
+                        <div class="img-show">
+                            <img src="./image/coffer.jpg   ">
+
+                        </div>
+                        <div class="title-show">
+                            <div class="title-demo">
+                                日本制Studio M'彩色陶瓷八角杯奶茶咖啡雪糕马克杯
+
+                            </div>
+                            <div class="tag-list" style="color: #FF5000;border-color: #FAB596;
+                            background: #FFFFFF;">送运费险</div>
+                        </div>
+                        <div class="price">
+                            <span class="price-value">
+                                <em>¥</em>
+                                688
+
+                            </span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="recommend-clearfix">
+                <div class="recommend-a">
+                    <a href="" class="item-link">
+                        <div class="img-show">
+                            <img src="./image/coffer.jpg   ">
+
+                        </div>
+                        <div class="title-show">
+                            <div class="title-demo">
+                                日本制Studio M'彩色陶瓷八角杯奶茶咖啡雪糕马克杯
+
+                            </div>
+                            <div class="tag-list" style="color: #FF5000;border-color: #FAB596;
+                            background: #FFFFFF;">送运费险</div>
+                        </div>
+                        <div class="price">
+                            <span class="price-value">
+                                <em>¥</em>
+                                688
+
+                            </span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="recommend-clearfix">
+                <div class="recommend-a">
+                    <a href="" class="item-link">
+                        <div class="img-show">
+                            <img src="./image/coffer.jpg   ">
+
+                        </div>
+                        <div class="title-show">
+                            <div class="title-demo">
+                                日本制Studio M'彩色陶瓷八角杯奶茶咖啡雪糕马克杯
+
+                            </div>
+                            <div class="tag-list" style="color: #FF5000;border-color: #FAB596;
+                            background: #FFFFFF;">送运费险</div>
+                        </div>
+                        <div class="price">
+                            <span class="price-value">
+                                <em>¥</em>
+                                688
+
+                            </span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="recommend-clearfix">
+                <div class="recommend-a">
+                    <a href="" class="item-link">
+                        <div class="img-show">
+                            <img src="./image/coffer.jpg   ">
+
+                        </div>
+                        <div class="title-show">
+                            <div class="title-demo">
+                                日本制Studio M'彩色陶瓷八角杯奶茶咖啡雪糕马克杯
+
+                            </div>
+                            <div class="tag-list" style="color: #FF5000;border-color: #FAB596;
+                            background: #FFFFFF;">送运费险</div>
+                        </div>
+                        <div class="price">
+                            <span class="price-value">
+                                <em>¥</em>
+                                688
+
+                            </span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="recommend-clearfix">
+                <div class="recommend-a">
+                    <a href="" class="item-link">
+                        <div class="img-show">
+                            <img src="./image/coffer.jpg   ">
+
+                        </div>
+                        <div class="title-show">
+                            <div class="title-demo">
+                                日本制Studio M'彩色陶瓷八角杯奶茶咖啡雪糕马克杯
+
+                            </div>
+                            <div class="tag-list" style="color: #FF5000;border-color: #FAB596;
+                            background: #FFFFFF;">送运费险</div>
+                        </div>
+                        <div class="price">
+                            <span class="price-value">
+                                <em>¥</em>
+                                688
+
+                            </span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="recommend-clearfix">
+                <div class="recommend-a">
+                    <a href="" class="item-link">
+                        <div class="img-show">
+                            <img src="./image/coffer.jpg   ">
+
+                        </div>
+                        <div class="title-show">
+                            <div class="title-demo">
+                                日本制Studio M'彩色陶瓷八角杯奶茶咖啡雪糕马克杯
+
+                            </div>
+                            <div class="tag-list" style="color: #FF5000;border-color: #FAB596;
+                            background: #FFFFFF;">送运费险</div>
+                        </div>
+                        <div class="price">
+                            <span class="price-value">
+                                <em>¥</em>
+                                688
+
+                            </span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="recommend-clearfix">
+                <div class="recommend-a">
+                    <a href="" class="item-link">
+                        <div class="img-show">
+                            <img src="./image/coffer.jpg   ">
+
+                        </div>
+                        <div class="title-show">
+                            <div class="title-demo">
+                                日本制Studio M'彩色陶瓷八角杯奶茶咖啡雪糕马克杯
+
+                            </div>
+                            <div class="tag-list" style="color: #FF5000;border-color: #FAB596;
+                            background: #FFFFFF;">送运费险</div>
+                        </div>
+                        <div class="price">
+                            <span class="price-value">
+                                <em>¥</em>
+                                688
+
+                            </span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="recommend-clearfix">
+                <div class="recommend-a">
+                    <a href="" class="item-link">
+                        <div class="img-show">
+                            <img src="./image/coffer.jpg   ">
+
+                        </div>
+                        <div class="title-show">
+                            <div class="title-demo">
+                                日本制Studio M'彩色陶瓷八角杯奶茶咖啡雪糕马克杯
+
+                            </div>
+                            <div class="tag-list" style="color: #FF5000;border-color: #FAB596;
+                            background: #FFFFFF;">送运费险</div>
+                        </div>
+                        <div class="price">
+                            <span class="price-value">
+                                <em>¥</em>
+                                688
+
+                            </span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="recommend-clearfix">
+                <div class="recommend-a">
+                    <a href="" class="item-link">
+                        <div class="img-show">
+                            <img src="./image/coffer.jpg   ">
+
+                        </div>
+                        <div class="title-show">
+                            <div class="title-demo">
+                                日本制Studio M'彩色陶瓷八角杯奶茶咖啡雪糕马克杯
+
+                            </div>
+                            <div class="tag-list" style="color: #FF5000;border-color: #FAB596;
+                            background: #FFFFFF;">送运费险</div>
+                        </div>
+                        <div class="price">
+                            <span class="price-value">
+                                <em>¥</em>
+                                688
+
+                            </span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="recommend-clearfix">
+                <div class="recommend-a">
+                    <a href="" class="item-link">
+                        <div class="img-show">
+                            <img src="./image/coffer.jpg   ">
+
+                        </div>
+                        <div class="title-show">
+                            <div class="title-demo">
+                                日本制Studio M'彩色陶瓷八角杯奶茶咖啡雪糕马克杯
+
+                            </div>
+                            <div class="tag-list" style="color: #FF5000;border-color: #FAB596;
+                            background: #FFFFFF;">送运费险</div>
+                        </div>
+                        <div class="price">
+                            <span class="price-value">
+                                <em>¥</em>
+                                688
+
+                            </span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="recommend-clearfix">
+                <div class="recommend-a">
+                    <a href="" class="item-link">
+                        <div class="img-show">
+                            <img src="./image/coffer.jpg   ">
+
+                        </div>
+                        <div class="title-show">
+                            <div class="title-demo">
+                                日本制Studio M'彩色陶瓷八角杯奶茶咖啡雪糕马克杯
+
+                            </div>
+                            <div class="tag-list" style="color: #FF5000;border-color: #FAB596;
+                            background: #FFFFFF;">送运费险</div>
+                        </div>
+                        <div class="price">
+                            <span class="price-value">
+                                <em>¥</em>
+                                688
+
+                            </span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="recommend-clearfix">
+                <div class="recommend-a">
+                    <a href="" class="item-link">
+                        <div class="img-show">
+                            <img src="./image/coffer.jpg   ">
+
+                        </div>
+                        <div class="title-show">
+                            <div class="title-demo">
+                                日本制Studio M'彩色陶瓷八角杯奶茶咖啡雪糕马克杯
+
+                            </div>
+                            <div class="tag-list" style="color: #FF5000;border-color: #FAB596;
+                            background: #FFFFFF;">送运费险</div>
+                        </div>
+                        <div class="price">
+                            <span class="price-value">
+                                <em>¥</em>
+                                688
+
+                            </span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="recommend-clearfix">
+                <div class="recommend-a">
+                    <a href="" class="item-link">
+                        <div class="img-show">
+                            <img src="./image/coffer.jpg   ">
+
+                        </div>
+                        <div class="title-show">
+                            <div class="title-demo">
+                                日本制Studio M'彩色陶瓷八角杯奶茶咖啡雪糕马克杯
+
+                            </div>
+                            <div class="tag-list" style="color: #FF5000;border-color: #FAB596;
+                            background: #FFFFFF;">送运费险</div>
+                        </div>
+                        <div class="price">
+                            <span class="price-value">
+                                <em>¥</em>
+                                688
+
+                            </span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="recommend-clearfix">
+                <div class="recommend-a">
+                    <a href="" class="item-link">
+                        <div class="img-show">
+                            <img src="./image/coffer.jpg   ">
+
+                        </div>
+                        <div class="title-show">
+                            <div class="title-demo">
+                                日本制Studio M'彩色陶瓷八角杯奶茶咖啡雪糕马克杯
+
+                            </div>
+                            <div class="tag-list" style="color: #FF5000;border-color: #FAB596;
+                            background: #FFFFFF;">送运费险</div>
+                        </div>
+                        <div class="price">
+                            <span class="price-value">
+                                <em>¥</em>
+                                688
+
+                            </span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="recommend-clearfix">
+                <div class="recommend-a">
+                    <a href="" class="item-link">
+                        <div class="img-show">
+                            <img src="./image/coffer.jpg   ">
+
+                        </div>
+                        <div class="title-show">
+                            <div class="title-demo">
+                                日本制Studio M'彩色陶瓷八角杯奶茶咖啡雪糕马克杯
+
+                            </div>
+                            <div class="tag-list" style="color: #FF5000;border-color: #FAB596;
+                            background: #FFFFFF;">送运费险</div>
+                        </div>
+                        <div class="price">
+                            <span class="price-value">
+                                <em>¥</em>
+                                688
+
+                            </span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="recommend-clearfix">
+                <div class="recommend-a">
+                    <a href="" class="item-link">
+                        <div class="img-show">
+                            <img src="./image/coffer.jpg   ">
+
+                        </div>
+                        <div class="title-show">
+                            <div class="title-demo">
+                                日本制Studio M'彩色陶瓷八角杯奶茶咖啡雪糕马克杯
+
+                            </div>
+                            <div class="tag-list" style="color: #FF5000;border-color: #FAB596;
+                            background: #FFFFFF;">送运费险</div>
+                        </div>
+                        <div class="price">
+                            <span class="price-value">
+                                <em>¥</em>
+                                688
+
+                            </span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="recommend-clearfix">
+                <div class="recommend-a">
+                    <a href="" class="item-link">
+                        <div class="img-show">
+                            <img src="./image/coffer.jpg   ">
+
+                        </div>
+                        <div class="title-show">
+                            <div class="title-demo">
+                                日本制Studio M'彩色陶瓷八角杯奶茶咖啡雪糕马克杯
+
+                            </div>
+                            <div class="tag-list" style="color: #FF5000;border-color: #FAB596;
+                            background: #FFFFFF;">送运费险</div>
+                        </div>
+                        <div class="price">
+                            <span class="price-value">
+                                <em>¥</em>
+                                688
+
+                            </span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="recommend-clearfix">
+                <div class="recommend-a">
+                    <a href="" class="item-link">
+                        <div class="img-show">
+                            <img src="./image/coffer.jpg   ">
+
+                        </div>
+                        <div class="title-show">
+                            <div class="title-demo">
+                                日本制Studio M'彩色陶瓷八角杯奶茶咖啡雪糕马克杯
+
+                            </div>
+                            <div class="tag-list" style="color: #FF5000;border-color: #FAB596;
+                            background: #FFFFFF;">送运费险</div>
+                        </div>
+                        <div class="price">
+                            <span class="price-value">
+                                <em>¥</em>
+                                688
+
+                            </span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+            <div class="layer1">
+                <div class="layer-a">
+                    <div class="news">
+                        <div class="news-top">
+                            <img src="./image/xiaoxi.png" class="news-icon">
+
+
+                        </div>
+                        <div class="news-buttom">
+                            消息
+
+                        </div>
+                    </div>
+
+                    <div class="toolkit">
+                        <a href="//consumerservice.taobao.com/online-help?spm=a21bo.jianhua.20220530.1.5af911d9X949XL" target="_blank">
+                            <i class="toolkit-icon" style="background-image: url(./image/kefu.png);"></i>
+                            官方客服
+                        </a>
+                    </div>
+
+                    <div class="toolkit">
+                        <a href="toolkit-item toolkit-item-link">
+                            <i class="toolkit-icon" style="background-image:url(./image/反馈.png)"></i>
+                            反馈
+                        </a>
+                    </div>
+
+                    <div class="toolkit">
+                        <a href="toolkit-item toolkit-item-link">
+                            <i class="toolkit-icon" style="background-image:url(./image/jubao.png)"></i>
+                            举报
+                        </a>
+                    </div>
+
+                    <div id = btn class="toolkit toolkit-back">
+                        <a id="back-btn" href="">
+                            <i class="toolkit-icon" style="background-image:url(./image/fanhui.png);"></i>
+                            回顶部
+                        </a>
+                        
+
+
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+
+
+
+
+        </div>
+
+</div>
+
+
+</div>
+
+
+
+    
+    
+</body>
+</html>
